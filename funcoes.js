@@ -8,3 +8,11 @@ function imprimeTexto(){
 }
 
 imprimeTexto("oi mundo!");
+imprimeTexto("Vitória");
+
+
+function soma(){
+    return 2 + 2;
+}
+
+console.log (soma());
