@@ -11,3 +11,9 @@ function nomeIdade(nome, idade){
 }
 
 console.log(nomeIdade("Vitoria", 16))
+
+function mutiplica(numero1, numero2){
+    return numero1 * numero2;
+}
+
+console.log(multiplica(soma(4, 5), soma(3, 3)))
