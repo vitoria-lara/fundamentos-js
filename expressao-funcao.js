@@ -22,6 +22,7 @@ console.log(aprensentar())
 functionapresentar(){
     return "olá";
 }
+
 console.log(somaOutroExemplo(1,1))
 const somaOutroExemplo = function (num1, num2){
     return num1 = num2
