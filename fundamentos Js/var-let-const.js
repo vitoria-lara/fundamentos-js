@@ -1,10 +1,10 @@
-//var
+// var
 
 //var altura = 5;
 //var comprimento = 7;
 
 //area = altura * comprimento;
-//console.log(area)
+//console.log(area);
 //var area;
 
 let forma = 'retângulo';
@@ -16,6 +16,6 @@ let area;
 if (forma === 'retângulo'){
     area = altura * comprimento;
 }else {
-    srea = (altura * comprimento)/ 2;
+    area = (altura * comprimento)/ 2;
 }
 console.log(area);

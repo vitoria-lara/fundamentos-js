@@ -1,6 +1,6 @@
 //declaração de função
 
-function minhaFuncao(){
+function minhaFuncao(param){
 // bloco de código
 }
 
@@ -15,15 +15,15 @@ const soma = function(num1, num2){
 console.log(soma(1, 15));
 
 //diferença principal: Hoisting
-//função e var são "listadas" no top do arquivo.
+//funções e var são "listadas" no top do arquivo.
 
-console.log(aprensentar())
+console.log(apresentar())
 
-functionapresentar(){
+function apresentar(){
     return "olá";
 }
 
-console.log(somaOutroExemplo(1,1))
+console.log(somaOutroExemplo(1, 1));
 const somaOutroExemplo = function (num1, num2){
-    return num1 = num2
+    return num1 + num2;
 }
