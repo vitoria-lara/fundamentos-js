@@ -1,17 +1,19 @@
 const cliente = {
-    nome: "Vitória",
-    idade: 16,
-    email: "vitoria@firma.com",
+    nome: "Xaxá",
+    idade: 44,
+    email: "xaxa@firma.com",
     telefone: ["4255555444", "42999885544"],
     saldo: 200,
-    efetuarPagamento: funcition (valor){
+    efetuaPagamento: function (valor){
         if (valor > this.saldo){
             console.log("Saldo insuficiente");
         }else{
             this.saldo -= valor;
-            console.log(`Pagamento realizado. Novo saldo ${this.saldo}`)
+            console.log(`Pagamento realizado. Novo saldo: ${this.saldo}`);
         }
-    } 
+    },
 };
+
+cliente.efetuaPagamento(25);
 
 cliente.efetuarPagamento(250);
