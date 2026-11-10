@@ -1,0 +1,12 @@
+{
+    "nome": "Xaxá",
+    "idade": 45,
+    "email": "xaxa@firma.com",
+    "telefone": ["4255555444", "42999885544"],
+    "endereco":{
+    "rua": "R. XV de Novembro",
+    "numero": 350,
+    "apartamento": true,
+    "complemento": "ap 1111"
+}
+}

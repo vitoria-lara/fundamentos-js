@@ -1,7 +1,7 @@
 const cliente = {
-    nome: "Vitoria",
-    idade: 16,
-    email: "vitoria@firma.com",
+    nome: "Xaxá",
+    idade: 45,
+    email: "xaxa@firma.com",
     telefone: ["4255555444", "42999885544"],
 };
 
@@ -15,8 +15,5 @@ cliente.endereco = [
 ];
 
 for (let chave in cliente){
-    let tipo = typeof cliente[chave];
-    if (tipo !== "object" && tipo !== "function"){
-        console.log(`A chave ${chave} tem o valor ${cliente[chave]}`)
-    }
+    console.log(cliente[chave]);
 }
